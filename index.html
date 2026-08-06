@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramrachai Marma | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Ramrachai Marma: AI Engineering portfolio covering GenAI, Azure OpenAI, RAG pipelines, IT security & cloud governance, and project work." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">Ramrachai Marma</a>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#intro">About Me</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-visual">
+          <img src="pic/AI-for-Data-Analysis.png" alt="AI for data analysis illustration" />
+        </div>
+        <div>
+          <h1 class="hero-welcome">Welcome to Ramrachai Marma's Data Science Portfolio</h1>
+          <p class="hero-role">M.Sc. Data Science | AI &amp; Machine Learning | 2+ Years Experience at Siemens Mobility GmbH</p>
+          <div class="hero-actions">
+            <a href="#experience" class="button">View Work</a>
+            <a href="pic/CV.pdf" class="button-secondary" download>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
+              Download CV
+            </a>
+            <a href="#contact" class="button-secondary">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro" class="section intro-section">
+      <div class="container">
+        <div class="intro-wrap">
+          <div class="intro-photo">
+            <img src="pic/ram.png" alt="Ramrachai Marma" />
+          </div>
+          <div class="intro-card">
+            <h1>AI Engineer &amp; Data Science Specialist</h1>
+            <p>I work across AI engineering and data science, building production AI systems, data pipelines, and cloud-based applications at Siemens Mobility. My work spans the full lifecycle, from data preparation and model development to integrating LLMs into scalable backend systems. I focus on clear data flow, automation, and modern AI approaches such as GPT-4o and human-in-the-loop workflows, with the goal of building reliable, production-ready solutions that support real business decisions.</p>
+            <a href="#contact" class="button-outline">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Where I've worked</h2>
+        </div>
+        <div class="exp-cards">
+          <button type="button" class="exp-card" data-open-dialog="exp-dialog-working-student">
+            <div class="exp-card-image">
+              <img src="pic/Siemens.jpg" alt="Siemens Mobility" />
+            </div>
+            <div class="exp-card-body">
+              <h3>Working Student <span class="exp-chevron">›</span></h3>
+              <p class="exp-card-company">SIEMENS MOBILITY GMBH</p>
+            </div>
+          </button>
+
+          <button type="button" class="exp-card" data-open-dialog="exp-dialog-thesis">
+            <div class="exp-card-image">
+              <img src="pic/Siemens.jpg" alt="Siemens Mobility" />
+            </div>
+            <div class="exp-card-body">
+              <h3>Master's Thesis <span class="exp-chevron">›</span></h3>
+              <p class="exp-card-company">SIEMENS MOBILITY GMBH</p>
+              <p class="exp-highlight">3.2× F1 improvement · 125-category taxonomy</p>
+            </div>
+          </button>
+
+          <button type="button" class="exp-card" data-open-dialog="exp-dialog-data-analyst">
+            <div class="exp-card-image">
+              <img src="pic/Ai quest intelligence.jpg" alt="aiQuest Intelligence" />
+            </div>
+            <div class="exp-card-body">
+              <h3>Data Analyst <span class="exp-chevron">›</span></h3>
+              <p class="exp-card-company">AIQUEST INTELLIGENCE</p>
+            </div>
+          </button>
+
+          <button type="button" class="exp-card" data-open-dialog="exp-dialog-finance">
+            <div class="exp-card-image">
+              <img src="pic/OASIS.png" alt="Oasis Group" />
+            </div>
+            <div class="exp-card-body">
+              <h3>Finance Data Analyst Intern <span class="exp-chevron">›</span></h3>
+              <p class="exp-card-company">OASIS GROUP</p>
+            </div>
+          </button>
+
+          <button type="button" class="exp-card" data-open-dialog="exp-dialog-volunteer">
+            <div class="exp-card-image">
+              <img src="pic/Volunterr.png" alt="Rural Education Initiative" />
+            </div>
+            <div class="exp-card-body">
+              <h3>Volunteer Instructor <span class="exp-chevron">›</span></h3>
+              <p class="exp-card-company">RURAL EDUCATION INITIATIVE</p>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <dialog id="exp-dialog-working-student" class="case-dialog">
+      <button type="button" class="case-dialog-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="case-dialog-body">
+        <div class="case-study-header">
+          <p class="eyebrow">Siemens Mobility GmbH</p>
+          <h2>Working Student, IT Security &amp; Cloud Governance</h2>
+        </div>
+        <span class="timeline-date">June 2024 – Present</span>
+        <ul class="exp-dialog-list">
+          <li>Assessed and documented gaps in access control, logging, and traceability across cloud and industrial IT workflows, supporting risk assessment and security governance objectives.</li>
+          <li>Hardened Azure and Azure DevOps CI/CD pipelines by introducing automated security checks, improving deployment visibility across development environments.</li>
+          <li>Automated recurring cloud deployment tasks using Python and Power Automate, reducing manual effort and improving operational reliability.</li>
+          <li>Analysed operational and incident data in Qlik Sense to surface reliability- and security-relevant insights, enabling data-driven engineering decisions.</li>
+          <li>Communicated technical risk and security findings to non-technical stakeholders across teams, bridging IT security and business goals.</li>
+        </ul>
+      </div>
+    </dialog>
+
+    <dialog id="exp-dialog-thesis" class="case-dialog">
+      <button type="button" class="case-dialog-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="case-dialog-body">
+        <div class="case-study-header">
+          <p class="eyebrow">Master's Thesis · Siemens Mobility GmbH</p>
+          <h2>AI-Assisted Railway Fault Reporting System</h2>
+        </div>
+        <span class="timeline-date">January 2025 – June 2026</span>
+        <ul class="exp-dialog-list">
+          <li>Designed and developed an end-to-end AI-powered fault reporting platform that converts unstructured German railway maintenance reports into structured, standardized records using Streamlit, Azure Functions, Azure OpenAI GPT-4o, Azure Blob Storage, and SharePoint.</li>
+          <li>Architected a dual AI workflow: AI Analysis extracts structured fault information from free-text maintenance reports using few-shot prompting with historical reports, while AI Categorization maps each report to a controlled 125-category bilingual engineering taxonomy for standardized classification.</li>
+          <li>Built an enterprise backend using Azure Functions to orchestrate AI services, integrate Azure OpenAI, manage historical context stored in Azure Blob Storage, and synchronize approved reports with SharePoint.</li>
+          <li>Developed a human-in-the-loop review workflow where technicians validate, edit, and approve AI-generated suggestions before reports are permanently stored, improving reliability and reducing manual documentation effort.</li>
+          <li>Created an automated document ingestion and preprocessing pipeline (DATA_Extractor) that consolidated 272 PDF, DOCX, and JSON engineering documents into a structured JSONL knowledge base using Azure Document Intelligence for layout-aware extraction.</li>
+        </ul>
+        <div class="project-stack">
+          <span>Azure OpenAI GPT-4o</span>
+          <span>Azure Functions</span>
+          <span>Streamlit</span>
+          <span>Azure Blob Storage</span>
+          <span>SharePoint</span>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog id="exp-dialog-data-analyst" class="case-dialog">
+      <button type="button" class="case-dialog-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="case-dialog-body">
+        <div class="case-study-header">
+          <p class="eyebrow">aiQuest Intelligence</p>
+          <h2>Data Analyst</h2>
+        </div>
+        <span class="timeline-date">May 2021 – May 2022 · Remote</span>
+        <ul class="exp-dialog-list">
+          <li>Worked with operational and learner data to improve reporting quality, validate datasets, and support business decisions within an online learning platform.</li>
+          <li>Performed data cleaning, trend analysis, and report preparation to help stakeholders monitor platform performance and operational metrics.</li>
+        </ul>
+      </div>
+    </dialog>
+
+    <dialog id="exp-dialog-finance" class="case-dialog">
+      <button type="button" class="case-dialog-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="case-dialog-body">
+        <div class="case-study-header">
+          <p class="eyebrow">Oasis Group</p>
+          <h2>Finance Data Analyst Intern</h2>
+        </div>
+        <span class="timeline-date">August 2017 – December 2017</span>
+        <ul class="exp-dialog-list">
+          <li>Assisted with financial data management, record verification, and reporting processes to improve data accuracy and support internal financial operations.</li>
+          <li>Reviewed financial records for completeness and consistency, documented discrepancies, and collaborated with the finance team to maintain reliable reporting.</li>
+        </ul>
+      </div>
+    </dialog>
+
+    <dialog id="exp-dialog-volunteer" class="case-dialog">
+      <button type="button" class="case-dialog-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="case-dialog-body">
+        <div class="case-study-header">
+          <p class="eyebrow">Rural Education Initiative</p>
+          <h2>Volunteer Instructor</h2>
+        </div>
+        <span class="timeline-date">January 2021 – March 2022 · Chittagong, Bangladesh</span>
+        <ul class="exp-dialog-list">
+          <li>Taught mathematics and logical reasoning to students, adapting materials to different skill levels and tracking progress through regular performance checks.</li>
+        </ul>
+      </div>
+    </dialog>
+
+    <dialog id="case-study-dialog" class="case-dialog">
+      <button type="button" class="case-dialog-close" aria-label="Close case study">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="case-dialog-body">
+        <div class="case-study-header">
+          <p class="eyebrow">Siemens Mobility</p>
+          <h2>AI-Assisted Railway Fault Reporting System</h2>
+        </div>
+
+        <div class="case-block">
+          <h3 class="case-block-title">Problem</h3>
+          <p>Manual railway fault reports were inconsistent, time-consuming, and difficult to classify.</p>
+        </div>
+
+        <div class="case-block">
+          <h3 class="case-block-title">My Contribution</h3>
+          <ul class="case-checklist">
+            <li>Designed system architecture</li>
+            <li>Built Azure Functions backend</li>
+            <li>Integrated Azure OpenAI</li>
+            <li>Built Streamlit frontend</li>
+            <li>Designed human-in-the-loop workflow</li>
+            <li>Developed data ingestion pipeline</li>
+          </ul>
+        </div>
+
+        <div class="case-block">
+          <h3 class="case-block-title">Architecture</h3>
+          <figure class="case-architecture">
+            <img src="pic/5.1.png" alt="Störberichtgenerator system architecture: a Streamlit frontend calls an Azure Functions API, which routes to two paths against Azure OpenAI (AI analysis with few-shot prompting, and AI categorization against a 125-label taxonomy), backed by Azure Blob Storage and synced to SharePoint on submit." />
+          </figure>
+        </div>
+
+        <div class="case-block">
+          <h3 class="case-block-title">Impact</h3>
+          <div class="case-stats">
+            <div class="case-stat">
+              <span class="case-stat-num">3.2×</span>
+              <span class="case-stat-label">F1 improvement</span>
+            </div>
+            <div class="case-stat">
+              <span class="case-stat-num">125</span>
+              <span class="case-stat-label">category taxonomy</span>
+            </div>
+            <div class="case-stat">
+              <span class="case-stat-num">272</span>
+              <span class="case-stat-label">engineering documents</span>
+            </div>
+            <div class="case-stat">
+              <span class="case-stat-num">162</span>
+              <span class="case-stat-label">historical reports</span>
+            </div>
+            <div class="case-stat">
+              <span class="case-stat-num">62%</span>
+              <span class="case-stat-label">extraction accuracy</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="case-block">
+          <h3 class="case-block-title">Tech Stack</h3>
+          <div class="project-stack">
+            <span>Python</span>
+            <span>Azure OpenAI</span>
+            <span>Azure Functions</span>
+            <span>Streamlit</span>
+            <span>Blob Storage</span>
+            <span>SharePoint</span>
+            <span>Azure AI Document Intelligence</span>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Featured work</h2>
+        </div>
+        <div class="grid cards">
+          <article class="card">
+            <h3>AI-Assisted Railway Fault Reporting System</h3>
+            <p class="project-meta">Störberichtgenerator · M.Sc. Data Science Thesis · FAU Erlangen-Nürnberg · with Siemens Mobility · 2026</p>
+            <p>An end-to-end AI-powered platform that converts unstructured German railway maintenance reports into structured, standardized records, with a dual AI workflow for extraction and categorization and a human-in-the-loop review step before anything is stored.</p>
+            <div class="project-stack">
+              <span>Azure OpenAI GPT-4o</span>
+              <span>Azure Functions</span>
+              <span>Streamlit</span>
+              <span>Azure Blob Storage</span>
+              <span>SharePoint</span>
+            </div>
+            <button type="button" class="card-link" data-open-dialog="case-study-dialog">Explore Technical Case Study &amp; Architecture →</button>
+          </article>
+          <article class="card">
+            <h3>RAG Chatbot, Secure AI Pipeline</h3>
+            <p>Retrieval-augmented chatbot that ingests PDFs, auto-updates its knowledge base, and retrieves relevant context at query time so the LLM answers stay grounded in the source documents instead of the model's own recall.</p>
+            <div class="project-stack">
+              <span>LangChain</span>
+              <span>HuggingFace Embeddings</span>
+              <span>Pinecone</span>
+            </div>
+            <a href="https://github.com/Ramrachai-Marma/RAG_Chatbot" class="card-link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+              View on GitHub
+            </a>
+          </article>
+          <article class="card">
+            <h3>Requirements Specification Extraction Tool</h3>
+            <p>AI agent using Azure Document Intelligence to extract requirements from PDF, Word, Excel, CSV, and scanned images, then flags near-duplicate requirements with sentence-embedding similarity before export.</p>
+            <div class="project-stack">
+              <span>Azure Document Intelligence</span>
+              <span>Sentence Transformers</span>
+              <span>Flask</span>
+              <span>Pandas</span>
+            </div>
+            <a href="https://github.com/Ramrachai-Marma/Requirements-Specification-Extractor-Agent" class="card-link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+              View on GitHub
+            </a>
+          </article>
+          <article class="card">
+            <h3>Renewable Energy &amp; CO₂ Emissions Pipeline</h3>
+            <p class="project-meta">Methods of Advanced Data Engineering (MADE) · FAU Erlangen-Nürnberg</p>
+            <p>An automated ETL pipeline examining whether renewable energy adoption reduces CO₂ emissions across the Americas. It pulls two World Bank datasets, runs through a tested pipeline script, and validates every push with GitHub Actions CI, backed by a data-quality report and a full written analysis.</p>
+            <div class="project-stack">
+              <span>Python</span>
+              <span>ETL Pipeline</span>
+              <span>GitHub Actions CI</span>
+              <span>Data Quality Reporting</span>
+            </div>
+            <a href="https://github.com/Ramrachai-Marma/made-Ramrachai-Marma" class="card-link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+              View on GitHub
+            </a>
+          </article>
+          <article class="card">
+            <h3>Medical Chatbot (Llama 2 RAG)</h3>
+            <p>Retrieval-augmented medical Q&amp;A chatbot running a locally-hosted Llama 2 model against a Pinecone vector store, served through a Flask web app.</p>
+            <div class="project-stack">
+              <span>LangChain</span>
+              <span>Meta Llama 2</span>
+              <span>Pinecone</span>
+              <span>Flask</span>
+            </div>
+            <a href="https://github.com/Ramrachai-Marma/Medical-Chatbot-usinng-Llama2" class="card-link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+              View on GitHub
+            </a>
+          </article>
+          <article class="card">
+            <h3>Cosmetics Brand Analysis</h3>
+            <p>Market-research case study on cosmetics consumer data: data cleaning, exploratory analysis, Net Promoter Score scoring, and NLP sentiment analysis on open-text feedback to produce segmentation and marketing recommendations.</p>
+            <div class="project-stack">
+              <span>Pandas</span>
+              <span>Seaborn</span>
+              <span>Scikit-learn</span>
+              <span>NLTK / VADER</span>
+            </div>
+            <a href="https://github.com/Ramrachai-Marma/Case-Study" class="card-link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+              View on GitHub
+            </a>
+          </article>
+          <article class="card">
+            <h3>Personal Face Recognition System</h3>
+            <p>Finds one specific person's face across group photos, using Haar Cascade detection paired with an LBPH recognizer trained on a handful of reference images, with confidence-scored, annotated output.</p>
+            <div class="project-stack">
+              <span>OpenCV</span>
+              <span>Python</span>
+              <span>LBPH</span>
+            </div>
+            <a href="https://github.com/Ramrachai-Marma/Face_detector" class="card-link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+              View on GitHub
+            </a>
+          </article>
+          <article class="card">
+            <h3>Automated Weather Forecast Generator</h3>
+            <p>Python automation that pulls live data from the OpenWeatherMap API for 15 cities across the UK, India, and the US, and renders it into styled, date-stamped PNG/PDF forecast images.</p>
+            <div class="project-stack">
+              <span>Python</span>
+              <span>OpenWeatherMap API</span>
+              <span>Pillow</span>
+            </div>
+            <a href="https://github.com/Ramrachai-Marma/Automate-weather-forecast" class="card-link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+              View on GitHub
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>What I use</h2>
+        </div>
+        <div class="skill-categories">
+          <div class="skill-category">
+            <h3>Machine Learning &amp; AI</h3>
+            <div class="skill-grid">
+              <span>Machine Learning</span>
+              <span>GenAI</span>
+              <span>Azure OpenAI (GPT-4 / GPT-4o)</span>
+              <span>RAG Pipelines</span>
+              <span>Prompt Engineering &amp; Few-Shot Learning</span>
+              <span>NLP (Extraction &amp; Classification)</span>
+              <span>Human-in-the-Loop Design</span>
+              <span>Secure LLM Deployment</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Programming &amp; Automation</h3>
+            <div class="skill-grid">
+              <span>Python</span>
+              <span>Python Automation</span>
+              <span>Power Automate</span>
+              <span>GitHub CI/CD</span>
+              <span>Azure DevOps CI/CD</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Cloud &amp; Infrastructure</h3>
+            <div class="skill-grid">
+              <span>Microsoft Azure</span>
+              <span>Azure AD</span>
+              <span>Azure DevOps</span>
+              <span>Azure Document Intelligence</span>
+              <span>AWS (basic)</span>
+              <span>Google Cloud Platform (basic)</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Data &amp; Analytics</h3>
+            <div class="skill-grid">
+              <span>SQL</span>
+              <span>Snowflake</span>
+              <span>Power BI</span>
+              <span>Qlik Sense</span>
+              <span>Data Pipelines</span>
+              <span>Data Engineering</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Security &amp; Governance</h3>
+            <div class="skill-grid">
+              <span>IT Security Engineering</span>
+              <span>Cloud Security</span>
+              <span>Access Governance</span>
+              <span>Risk Assessment</span>
+              <span>IT Audit</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section education-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2>Academic background</h2>
+        </div>
+        <div class="grid cards education-grid">
+          <article class="card">
+            <h3>M.Sc. Data Science</h3>
+            <p class="timeline-org">Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany</p>
+            <p>April 2023 – June 2026</p>
+          </article>
+          <article class="card">
+            <h3>B.Eng. Information Technology</h3>
+            <p class="timeline-org">Gujarat Technological University, India</p>
+            <p>June 2016 – September 2020</p>
+          </article>
+        </div>
+
+        <div class="section-heading certs-heading">
+          <p class="eyebrow">Award</p>
+          <h2>Recognition</h2>
+        </div>
+        <div class="award-callout">
+          <span class="award-badge">Award</span>
+          <div>
+            <strong>Fully Funded Government Scholarship</strong>
+            <p>ICCR, Government of India: a competitive, merit-based award for study abroad.</p>
+          </div>
+        </div>
+
+        <div class="section-heading certs-heading">
+          <p class="eyebrow">Certificates</p>
+          <h2>Credentials</h2>
+        </div>
+        <ul class="cert-list">
+          <li><strong>Get Started with Python</strong> · Google/Coursera <span class="cert-id">(ID: UYKMUAN9VFW2)</span></li>
+          <li><strong>Foundations of Data Science</strong> · Google/Coursera <span class="cert-id">(ID: F4ZWYPFMX3CF)</span></li>
+          <li><strong>Foundations: Data, Data, Everywhere</strong> · Google/Coursera <span class="cert-id">(ID: 8BAUVBG8SCTK)</span></li>
+          <li><strong>SQL, MySQL for Data Analytics and Business Intelligence</strong> · Udemy <span class="cert-id">(ID: UC-f644c030-4c86-4c68-b651-bc1e7745bc95)</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's Connect</h2>
+        <p class="contact-lead">I'm currently seeking full-time opportunities as an AI Engineer, Machine Learning Engineer, or Data Scientist, bringing hands-on experience building production AI systems at Siemens Mobility. If my background fits a role you're hiring for, I'd welcome the conversation, reach out by email or LinkedIn below.</p>
+        <div class="hero-actions contact-actions">
+          <a href="mailto:marmaramrachai20@gmail.com" class="button">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="m4 6 8 7 8-7"/></svg>
+            Email Me
+          </a>
+          <a href="https://linkedin.com/in/ramrachai-marma" class="button-secondary" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/Ramrachai-Marma" class="button-secondary" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+            GitHub
+          </a>
+          <a href="pic/CV.pdf" class="button-secondary" download>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
+            Download CV
+          </a>
+        </div>
+        <div class="contact-meta">
+          <span>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            Erlangen, Germany
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            +49 1778365108
+          </span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Ramrachai Marma.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
