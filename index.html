@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ramrachai Marma | Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="stylesheet" href="styles.css" />
   <meta name="description" content="Ramrachai Marma: AI Engineering portfolio covering GenAI, Azure OpenAI, RAG pipelines, IT security & cloud governance, and project work." />
 </head>
@@ -279,12 +280,12 @@
         <div class="case-block">
           <h3 class="case-block-title">Tech Stack</h3>
           <div class="project-stack">
-            <span>Python</span>
-            <span>Azure OpenAI</span>
+            <span>Azure Cloud</span>
             <span>Azure Functions</span>
-            <span>Streamlit</span>
-            <span>Blob Storage</span>
-            <span>SharePoint</span>
+            <span>LLMs</span>
+            <span>Python</span>
+            <span>NLP</span>
+            <span>Prompt Engineering</span>
             <span>Azure AI Document Intelligence</span>
           </div>
         </div>
@@ -303,11 +304,12 @@
             <p class="project-meta">Störberichtgenerator · M.Sc. Data Science Thesis · FAU Erlangen-Nürnberg · with Siemens Mobility · 2026</p>
             <p>An end-to-end AI-powered platform that converts unstructured German railway maintenance reports into structured, standardized records, with a dual AI workflow for extraction and categorization and a human-in-the-loop review step before anything is stored.</p>
             <div class="project-stack">
-              <span>Azure OpenAI GPT-4o</span>
+              <span>Azure Cloud</span>
               <span>Azure Functions</span>
-              <span>Streamlit</span>
-              <span>Azure Blob Storage</span>
-              <span>SharePoint</span>
+              <span>LLMs</span>
+              <span>Python</span>
+              <span>NLP</span>
+              <span>Prompt Engineering</span>
             </div>
             <button type="button" class="card-link" data-open-dialog="case-study-dialog">Explore Technical Case Study &amp; Architecture →</button>
           </article>
@@ -423,7 +425,7 @@
             <div class="skill-grid">
               <span>Machine Learning</span>
               <span>GenAI</span>
-              <span>Azure OpenAI (GPT-4 / GPT-4o)</span>
+              <span>Azure OpenAI</span>
               <span>RAG Pipelines</span>
               <span>Prompt Engineering &amp; Few-Shot Learning</span>
               <span>NLP (Extraction &amp; Classification)</span>
@@ -448,8 +450,7 @@
               <span>Azure AD</span>
               <span>Azure DevOps</span>
               <span>Azure Document Intelligence</span>
-              <span>AWS (basic)</span>
-              <span>Google Cloud Platform (basic)</span>
+              <span>AWS</span>
             </div>
           </div>
           <div class="skill-category">
@@ -512,14 +513,221 @@
           <p class="eyebrow">Certificates</p>
           <h2>Credentials</h2>
         </div>
-        <ul class="cert-list">
-          <li><strong>Get Started with Python</strong> · Google/Coursera <span class="cert-id">(ID: UYKMUAN9VFW2)</span></li>
-          <li><strong>Foundations of Data Science</strong> · Google/Coursera <span class="cert-id">(ID: F4ZWYPFMX3CF)</span></li>
-          <li><strong>Foundations: Data, Data, Everywhere</strong> · Google/Coursera <span class="cert-id">(ID: 8BAUVBG8SCTK)</span></li>
-          <li><strong>SQL, MySQL for Data Analytics and Business Intelligence</strong> · Udemy <span class="cert-id">(ID: UC-f644c030-4c86-4c68-b651-bc1e7745bc95)</span></li>
-        </ul>
+        <div class="exp-cards">
+          <button type="button" class="exp-card" data-open-dialog="cert-dialog-python">
+            <div class="exp-card-image">
+              <img src="pic/Get started with python.png" alt="Get Started with Python certificate" />
+            </div>
+            <div class="exp-card-body">
+              <h3>Get Started with Python <span class="exp-chevron">›</span></h3>
+              <p class="exp-card-company">GOOGLE · COURSERA</p>
+            </div>
+          </button>
+
+          <button type="button" class="exp-card" data-open-dialog="cert-dialog-dsfoundations">
+            <div class="exp-card-image">
+              <img src="pic/Foundation of data science.png" alt="Foundations of Data Science certificate" />
+            </div>
+            <div class="exp-card-body">
+              <h3>Foundations of Data Science <span class="exp-chevron">›</span></h3>
+              <p class="exp-card-company">GOOGLE · COURSERA</p>
+            </div>
+          </button>
+
+          <button type="button" class="exp-card" data-open-dialog="cert-dialog-sql">
+            <div class="exp-card-image">
+              <img src="pic/SQL-Mysql.png" alt="SQL - MySQL for Data Analytics and Business Intelligence certificate" />
+            </div>
+            <div class="exp-card-body">
+              <h3>SQL - MySQL for Data Analytics &amp; BI <span class="exp-chevron">›</span></h3>
+              <p class="exp-card-company">UDEMY</p>
+            </div>
+          </button>
+
+          <button type="button" class="exp-card" data-open-dialog="cert-dialog-powerbi">
+            <div class="exp-card-image">
+              <img src="pic/Masters Power bi.png" alt="Master Microsoft Power BI in 21 Days certificate" />
+            </div>
+            <div class="exp-card-body">
+              <h3>Master Microsoft Power BI in 21 Days <span class="exp-chevron">›</span></h3>
+              <p class="exp-card-company">UDEMY</p>
+            </div>
+          </button>
+
+          <button type="button" class="exp-card" data-open-dialog="cert-dialog-linux">
+            <div class="exp-card-image">
+              <img src="pic/linux.png" alt="Introduction to Linux certificate" />
+            </div>
+            <div class="exp-card-body">
+              <h3>Introduction to Linux <span class="exp-chevron">›</span></h3>
+              <p class="exp-card-company">EDUREKA · COURSERA</p>
+            </div>
+          </button>
+
+          <button type="button" class="exp-card" data-open-dialog="cert-dialog-aws">
+            <div class="exp-card-image">
+              <img src="pic/aws .png" alt="AWS Cloud Technical Essentials certificate" />
+            </div>
+            <div class="exp-card-body">
+              <h3>AWS Cloud Technical Essentials <span class="exp-chevron">›</span></h3>
+              <p class="exp-card-company">AMAZON WEB SERVICES · COURSERA</p>
+            </div>
+          </button>
+
+          <button type="button" class="exp-card" data-open-dialog="cert-dialog-aiagent">
+            <div class="exp-card-image">
+              <img src="pic/building with AI agent.png" alt="Building Your First AI Agent with OpenAI certificate" />
+            </div>
+            <div class="exp-card-body">
+              <h3>Building Your First AI Agent with OpenAI <span class="exp-chevron">›</span></h3>
+              <p class="exp-card-company">COURSERA</p>
+            </div>
+          </button>
+        </div>
       </div>
     </section>
+
+    <dialog id="cert-dialog-python" class="case-dialog">
+      <button type="button" class="case-dialog-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="case-dialog-body">
+        <div class="case-study-header">
+          <p class="eyebrow">Google · Coursera</p>
+          <h2>Get Started with Python</h2>
+        </div>
+        <span class="timeline-date">Issued September 24, 2023</span>
+        <ul class="exp-dialog-list">
+          <li>Credential ID: UYKMUAN9VFW2</li>
+        </ul>
+        <a href="https://coursera.org/verify/UYKMUAN9VFW2" class="card-link" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+          Show credential
+        </a>
+      </div>
+    </dialog>
+
+    <dialog id="cert-dialog-dsfoundations" class="case-dialog">
+      <button type="button" class="case-dialog-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="case-dialog-body">
+        <div class="case-study-header">
+          <p class="eyebrow">Google · Coursera</p>
+          <h2>Foundations of Data Science</h2>
+        </div>
+        <span class="timeline-date">Issued September 3, 2023</span>
+        <ul class="exp-dialog-list">
+          <li>Credential ID: F4ZWYPFMX3CF</li>
+        </ul>
+        <a href="https://coursera.org/verify/F4ZWYPFMX3CF" class="card-link" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+          Show credential
+        </a>
+      </div>
+    </dialog>
+
+    <dialog id="cert-dialog-sql" class="case-dialog">
+      <button type="button" class="case-dialog-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="case-dialog-body">
+        <div class="case-study-header">
+          <p class="eyebrow">Udemy</p>
+          <h2>SQL - MySQL for Data Analytics and Business Intelligence</h2>
+        </div>
+        <span class="timeline-date">Issued September 16, 2022</span>
+        <ul class="exp-dialog-list">
+          <li>Instructor: 365 Careers · 11 total hours</li>
+          <li>Certificate no: UC-f644c030-4c86-4c68-b651-bc1e7745bc95</li>
+        </ul>
+        <a href="https://ude.my/UC-f644c030-4c86-4c68-b651-bc1e7745bc95" class="card-link" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+          Show credential
+        </a>
+      </div>
+    </dialog>
+
+    <dialog id="cert-dialog-powerbi" class="case-dialog">
+      <button type="button" class="case-dialog-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="case-dialog-body">
+        <div class="case-study-header">
+          <p class="eyebrow">Udemy</p>
+          <h2>Master Microsoft Power BI in 21 Days</h2>
+        </div>
+        <span class="timeline-date">Issued September 16, 2022</span>
+        <ul class="exp-dialog-list">
+          <li>Instructor: Atul Kadlag · 8 total hours</li>
+          <li>Certificate no: UC-fc5ae822-41f4-494c-9631-ab4b979f9f9e</li>
+        </ul>
+        <a href="https://ude.my/UC-fc5ae822-41f4-494c-9631-ab4b979f9f9e" class="card-link" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+          Show credential
+        </a>
+      </div>
+    </dialog>
+
+    <dialog id="cert-dialog-linux" class="case-dialog">
+      <button type="button" class="case-dialog-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="case-dialog-body">
+        <div class="case-study-header">
+          <p class="eyebrow">Edureka · Coursera</p>
+          <h2>Introduction to Linux</h2>
+        </div>
+        <span class="timeline-date">Issued August 20, 2026</span>
+        <ul class="exp-dialog-list">
+          <li>Credential ID: UBXEQEKH7EQJ</li>
+        </ul>
+        <a href="https://coursera.org/verify/UBXEQEKH7EQJ" class="card-link" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+          Show credential
+        </a>
+      </div>
+    </dialog>
+
+    <dialog id="cert-dialog-aws" class="case-dialog">
+      <button type="button" class="case-dialog-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="case-dialog-body">
+        <div class="case-study-header">
+          <p class="eyebrow">Amazon Web Services · Coursera</p>
+          <h2>AWS Cloud Technical Essentials</h2>
+        </div>
+        <span class="timeline-date">Issued August 19, 2026</span>
+        <ul class="exp-dialog-list">
+          <li>Credential ID: FIVGF7237XUY</li>
+        </ul>
+        <a href="https://coursera.org/verify/FIVGF7237XUY" class="card-link" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+          Show credential
+        </a>
+      </div>
+    </dialog>
+
+    <dialog id="cert-dialog-aiagent" class="case-dialog">
+      <button type="button" class="case-dialog-close" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <div class="case-dialog-body">
+        <div class="case-study-header">
+          <p class="eyebrow">Coursera</p>
+          <h2>Building Your First AI Agent with OpenAI</h2>
+        </div>
+        <span class="timeline-date">Issued August 13, 2026</span>
+        <ul class="exp-dialog-list">
+          <li>Credential ID: 8GD4RJ18J1S4</li>
+        </ul>
+        <a href="https://coursera.org/verify/8GD4RJ18J1S4" class="card-link" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg>
+          Show credential
+        </a>
+      </div>
+    </dialog>
 
     <section id="contact" class="section contact-section">
       <div class="container contact-card">
