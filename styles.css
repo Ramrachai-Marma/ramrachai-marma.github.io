@@ -820,7 +820,7 @@ h2 {
     width: 100%;
     max-width: 480px;
     align-self: center;
-    margin-top: -40px;
+    margin-top: 1.5rem;
     order: 2;
   }
 
