@@ -673,6 +673,10 @@ h2 {
   margin-top: 1.25rem;
 }
 
+.exp-dialog-architecture {
+  margin-top: 1.75rem;
+}
+
 .timeline-date {
   color: var(--accent);
   font-weight: 600;
